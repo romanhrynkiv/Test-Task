@@ -3,7 +3,7 @@
     flex-direction: column;
     position: relative;
     margin-top: -8px;
-    width: 100px;
+    width: 80px;
     z-index: 81;
 }
 
@@ -13,7 +13,7 @@
     display: grid;
     grid-template-rows: 0fr;
     border-radius: 5px;
-    width: 100px;
+    width: 80px;
     top: 100%;
     transition: grid-template-rows 500ms;
     z-index: 5;

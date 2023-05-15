@@ -1,6 +1,7 @@
 .currency-img{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
+
 }
 
 .currency-item{
@@ -10,6 +11,7 @@
     color: white;
     padding-left: 10px;
     height: 40px;
+    font-size: 14px;
 }
 
 .main-item{
@@ -19,6 +21,7 @@
     color: white;
     padding-left: 10px;
     height: 40px;
+    font-size: 14px;
 }
 
 .main-item:hover{
@@ -26,9 +29,23 @@
     background: #2C3E6733;
 }
 
+.main-item:hover .arrow{
+  transform: rotate(-135deg);
+  border: solid #E9B109;
+  border-width: 0 2px 2px 0;
+  margin-top: 5px;
+}
+
 .inlist-currency:hover{
     border-right: 4px solid #E9B109;
     background: #2C3E6733;
+}
+
+.currency-item:hover .arrow{
+  transform: rotate(-135deg);
+  border: solid #E9B109;
+  border-width: 0 2px 2px 0;
+  margin-top: 5px;
 }
 
 .currency-item:hover{
@@ -44,7 +61,7 @@
     border-width: 0 2px 2px 0;
     display: inline-block;
     padding: 3px;
-    margin-left: 15px;
+    margin-left: 10px;
     margin-right: 5px;
 
   }

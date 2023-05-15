@@ -1,0 +1,73 @@
+.headerbutton{
+    font-size: 14px;
+    padding: 10px;
+    color: white;
+    transition: color 0.5s ease;
+    cursor: pointer;
+}
+
+
+.headerbuttonactive{
+    font-size: 14px;
+    color: #E9B109;
+    padding: 10px;
+    transition: color 0.5s ease;
+    cursor: pointer;
+}
+
+.headerbutton:hover {
+  color: #E9B109;
+}
+
+
+
+.headerbutton:focus {
+  color: #E9B109;
+}
+
+/* .line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: blue;
+  transition: width 0.5s ease;
+} */
+.line {
+  position: relative;
+  width: 0px;
+  height: 2px;
+  margin-left: 12px;
+  margin-top: 0px;
+  background-color: #E9B109;
+  transition: width 0.5s ease;
+}
+
+.headerbutton:hover + .line {
+  width: 35px;
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.headerbutton:focus + .line {
+  width: 35px;
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+@media (max-width: 950px) {
+  .btn-container{
+    border-top: 1px solid #414e67;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .headerbutton{
+    display: block;
+    margin-top: 1px;
+    font-size: 25px;
+  }
+  .line{
+    display: none;
+  }
+}

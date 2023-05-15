@@ -1,0 +1,24 @@
+
+.auth-buttons-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.auth-buttons-container button{
+    margin-top: 5px;
+}
+
+@media (max-width: 950px) {
+    .signup {
+      display: none;
+    }
+
+  .auth-buttons-container{
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .login{
+    width: 90px;
+  }
+    
+}
